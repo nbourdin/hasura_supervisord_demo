@@ -1,0 +1,11 @@
+actions:
+- name: hello
+  definition:
+    kind: ""
+    handler: http://localhost:3000/hello
+custom_types:
+  enums: []
+  input_objects: []
+  objects:
+  - name: HelloOutput
+  scalars: []
